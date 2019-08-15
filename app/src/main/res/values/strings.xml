@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Thoughtworks kart</string>
+    <string name="undo_label"><u>Undo</u></string>
+    <string name="archived_label">Archive</string>
+</resources>

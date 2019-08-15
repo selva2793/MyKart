@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/regularLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    <ImageView
+        android:id="@+id/iv_prodimage"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_height="match_parent">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_prodname"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Dentist"
+        android:textSize="16sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_prodprice"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Dentist"
+        android:textColor="@color/dark_blue"
+        android:textSize="20sp" >
+    </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lv_totalscorelayout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/tv_totalscore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/info_color"
+            android:layout_weight="1.5"/>
+    </LinearLayout>
+
+</LinearLayout>
